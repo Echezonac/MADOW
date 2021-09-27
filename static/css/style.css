@@ -1,0 +1,423 @@
+  /* GENERAL STYLING */
+  *{
+margin: 0px;
+padding: 0px;
+list-style: none;
+text-decoration: none;
+color: #fff;
+/* font-family: 'Roboto', sans-serif; */
+font-family: 'Roboto Slab', serif;
+
+
+}
+title{
+    color: black;
+}
+body{
+    background-color: black ;
+}
+body::-webkit-scrollbar{
+    width: 2px;
+}
+body::-webkit-scrollbar-thumb{
+    background-color: whitesmoke;
+}
+body::-webkit-scrollbar-track{
+    background-color: black;
+}
+#navbar{
+    height: 60px;
+    background-color: transparent;
+    /* position: sticky;
+    top: 0;
+    z-index: 1000; */
+    
+}
+
+#banner{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation: land 26s  infinite;
+    animation-timing-function: ease-in-out;
+    /* background-attachment: fixed; */
+}
+@keyframes land{
+    0%, 40%{
+        background-image: url('../images/pexels-joshua-abner-3605015.jpg');
+        height: 620px;
+        background-color: rgba(0, 0, 0, .4);
+        background-blend-mode: darken;
+
+    }
+    50%, 65%{
+     background-image: url('../images/pexels-lucas-da-miranda-1967902.jpg');
+    height: 620px;
+    background-blend-mode: darken;
+    background-color: rgba(0, 0, 0, .6);
+    }
+    75%, 100%{
+        background-image: url('../images/pexels-asiama-junior-6568190.jpg');
+    height: 620px;
+    background-blend-mode: darken;
+    background-color: rgba(0, 0, 0, .6);
+    }
+    
+}
+
+.navbar-brand p{
+    margin-top: 3px;
+    margin-left: 5px;
+    font-size: 16px;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+}
+.navbar-nav li a{
+    margin: 0px 20px;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    font-size: small;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+.out{
+    border: 1px solid white;
+    box-sizing: content-box;
+    padding: 10px;
+    width: 70px; 
+    height: 17px;
+     border-radius: 50px;
+     margin-bottom: 10px !important;
+}
+.navbar-nav li:hover a{
+    color: rgb(187, 172, 172) !important;
+}
+.navbar-nav li:visited a{
+    color: rgb(187, 172, 172) !important;
+}
+.bgColor{
+    transition: all 1s;
+    background-color: black !important;
+    font-family: 'Roboto Slab', serif;
+    font-size: small;
+    text-shadow: 2px black !important;
+    border-bottom: 1px solid rgb(31, 29, 29);
+
+}
+h1{
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    margin-top: 16.5%;
+    
+    font-size: 2.8em;
+}
+p{
+    color: white;
+    text-transform: uppercase;
+    margin-top: 15px;
+    font-family: 'Roboto Slab', serif;
+    
+}
+h2{
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    margin: 70px auto;
+    font-size: 2em;
+}
+/* .filterDiv{
+    display: flex;
+    align-items: center;
+} */
+
+/* media query  medium*/
+@media screen and (max-width:991px) {
+    #foot li{
+        margin: 0 20px;
+        font-size: .8em;
+    }  
+    h1{
+        color: white;
+        text-transform: uppercase;
+        font-family: 'Roboto Slab', serif;
+        font-weight: bold;
+        margin-top: 20%;
+        font-size: 2em;
+    }
+    p{
+        color: white;
+        text-transform: uppercase;
+        font-size: medium;
+}
+ button p{
+    font-size: smaller;
+    margin: 10px auto;
+     
+ }
+ button a{
+     font-size: smaller;
+ }
+ #banner{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation: land 26s  infinite;
+    animation-timing-function: ease-in-out;
+    /* background-attachment: fixed; */
+}
+@keyframes land{
+    0%, 40%{
+        background-image: url('../images/pexels-joshua-abner-3605015.jpg');
+        height: 450px;
+        background-color: rgba(0, 0, 0, .4);
+        background-blend-mode: darken;
+
+    }
+    50%, 65%{
+     background-image: url('../images/pexels-lucas-da-miranda-1967902.jpg');
+    height: 450px;
+    background-blend-mode: darken;
+    background-color: rgba(0, 0, 0, .6);
+    }
+    75%, 100%{
+        background-image: url('../images/pexels-asiama-junior-6568190.jpg');
+    height: 450px;
+    background-blend-mode: darken;
+    background-color: rgba(0, 0, 0, .6);
+    }
+    
+}
+
+}
+
+
+/* media query small */
+
+@media screen and (max-width:403px) {
+    .log h1{
+        font-size: medium;
+    }
+    button{
+        height: 60px;
+    }
+        button p{
+            font-size: smaller;
+            margin: 10px auto;
+            
+        }
+        #banner{
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            animation: land 26s  infinite;
+            animation-timing-function: ease-in-out;
+            /* background-attachment: fixed; */
+        }
+        @keyframes land{
+            0%, 40%{
+                background-image: url('../images/pexels-lucxama-sylvain-5379139.jpg');
+                height: 440px;
+                background-color: rgba(0, 0, 0, .3);
+                background-blend-mode: darken;
+                
+            }
+            50%, 65%{
+                background-image: url('../images/post-E45.jpg');
+            height: 440px;
+            background-blend-mode: darken;
+            background-color: rgba(0, 0, 0, .3);
+            }
+            75%, 100%{
+                background-image: url('../images/sam-burriss-tV_1sC603zA-unsplash.jpg');
+            height: 440px;
+            background-blend-mode: darken;
+            background-color: rgba(0, 0, 0, .3);
+            }
+            
+        }
+        
+        h1{
+            color: white;
+            text-transform: uppercase;
+            font-family: 'Roboto Slab', serif;
+            font-weight: bold;
+            margin-top: 62%;
+            /* text-align: center; */
+            font-size: 1.2em;
+        }
+        p{
+            color: white;
+            text-transform: uppercase;
+            margin-top: 10px;
+            font-family: 'Roboto Slab', serif;
+            font-size: small;
+        }
+        #img_container{
+            height: 300px !important;
+            
+            margin: 5px 0px !important;
+        }
+        #foot{
+            margin: 10px auto;
+            
+        }
+        #end_tag li{
+            margin: 20px 20px;
+            font-weight: lighter;
+            text-transform: capitalize;
+            font-size: small !important;
+        }
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+}
+/* media query  end*/
+
+#img_container{
+    height: 300px !important;
+    
+}
+#postimg img{
+    height: 450px !important;
+}
+.heart:hover{
+    color: rgb(231, 33, 33);
+}
+#navv{
+    background-color:#0C0B0B ;
+    height: 60px;
+    position: sticky;
+    top: 0;
+    z-index: 1500;
+}
+
+
+
+.name{
+    display: inline-block;
+    position: absolute;
+    margin: 9px 0;
+    padding-left: 4px;
+    
+    
+  }
+  .img-container{
+    position: relative;
+    width: fit-content;
+    max-width: fit-content;
+  }
+  .overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); 
+  color: #f1f1f1;
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 9px;
+  display: flex;
+  justify-content: space-between;
+  
+}
+.img-container:hover .overlay{
+  opacity: 1;
+}
+.icon i{
+  margin: 10px 5px;
+}
+
+footer{
+    border-top: 1px solid rgb(37, 36, 36);
+    box-sizing: content-box;
+}
+#foot{
+    margin: 20px auto;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+#foot li{
+    margin: 0 30px;
+    font-size: 1em;
+}
+#about{
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: #fff;
+    margin: 10px 0;
+}
+.footer{
+    margin-top: 20px;
+}
+.footer li{
+    color: rgb(243, 229, 229);
+    margin: 5px 0;
+}
+.footer_icon{
+    margin: 10px 0;
+}
+.footer_icon i{
+    font-size: medium;
+}
+@media screen and (max-width:798px) {
+    h1{
+        color: white;
+        text-transform: uppercase;
+        font-family: 'Roboto Slab', serif;
+        font-weight: bold;
+        margin-top: 23%;
+        /* text-align: center; */
+        font-size: 2em;
+    }
+    p{
+        color: white;
+        text-transform: uppercase;
+        margin-top: 10px;
+        font-family: 'Roboto Slab', serif;
+        font-size: small;
+    } 
+}
+@media screen and (max-width:381px) {
+    h1{
+        color: white;
+        text-transform: uppercase;
+        font-family: 'Roboto Slab', serif;
+        font-weight: bold;
+        margin-top: 45%;
+        /* text-align: center; */
+        font-size: 1.5em;
+    }
+    p{
+        color: white;
+        text-transform: uppercase;
+        margin-top: 10px;
+        font-family: 'Roboto Slab', serif;
+        font-size: small;
+    } 
+    #end_tag{
+        display: flex;
+        justify-content: end ;
+        align-items: flex-end;
+    }
+    #end_tag li{
+        margin: 20px 20px;
+        font-weight: lighter;
+        text-transform: capitalize;
+        font-size: small !important;
+    }
+}
+#end_tag{
+    display: flex;
+    justify-content: end ;
+    align-items: flex-end;
+}
+#end_tag li{
+    margin: 20px 20px;
+    font-weight: lighter;
+    text-transform: capitalize;
+    font-size: medium;
+}

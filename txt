@@ -1,0 +1,247 @@
+  
+  <div class="col-10 mx-auto" style="margin-top: -24%;">
+    <div class="d-grid gap-4 ">
+     
+    </div>
+    
+    
+   
+      <p class=" d-flex justify-content-end"> 
+        forgot your password?
+      </p>
+ 
+  </div>
+
+
+
+
+ 
+
+ modal!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" >
+ <div class="modal-dialog modal-lg" >
+   <div class="modal-content">
+     <div class="modal-body">
+       <!-- header modal -->
+     <div class="row">
+       <div class="col-lg-7 col-md-5 col-sm-12">
+        <div class="contactt">
+          <img src="static/images/contact.jpg" alt="" class="img-fluid"  >
+        </div>
+       <div class="name d-inline ">
+        <p class=" text-dark mar">mark</p>
+        <p class="d-block  available">available for hire <i class="fa fa-check-square" aria-hidden="true"></i></p>
+       </div>
+       </div>
+       <!-- <div class="col-lg-3"></div> -->
+       <div class="col-lg-5 col-md-7 col-sm-6 ">
+        <button type="button" class="btn modalbutt"  onclick="modalicon()" ><i class="fa fa-heart " aria-hid onclick="heart()"den="true" id="micon"  ></i></button>
+        <button type="button" class="btn modalbutt"  onclick="modalicon()"><i class="fa fa-plus" aria-hidden="true" id="micon"  ></i></button>
+        <div class="btn-group mx-1">
+          <button type="button" class="btn free">Free Download</button>
+          <button type="button" class="btn free dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+            <span class="visually-hidden">Toggle Dropdown</span>
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Choose a size</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                <label class="form-check-label" for="exampleRadios1">
+                  Original (3456 x 5184)
+                </label>
+              </div>
+            </a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#"><div class="form-check">
+              <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+              <label class="form-check-label" for="exampleRadios1">
+                Large (1920 x 2880)
+              </label>
+            </div></a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#"><div class="form-check">
+              <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+              <label class="form-check-label" for="exampleRadios1">
+                Medium (1280 x 1919)
+              </label>
+            </div></a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#"><div class="form-check">
+              <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+              <label class="form-check-label" for="exampleRadios1">
+                Small (640 x 959)
+              </label>
+            </div></a></li>
+          </ul>
+        </div>
+       </div>
+     </div>
+         <!-- header modal end -->
+             <!-- modal image -->
+         <aside class="row">
+           <div class="col-6 mx-auto mt-3" >
+             <img src="static/images/post-133.jpg" alt="" class="img-fluid">
+           </div>
+         </aside>
+         <!-- modal image end -->
+         <!-- views -->
+         <div class="row" id="lowericon">
+           <div class="col-4 mt-1  mx-auto">
+             <p class=" d-inline mx-1"> <i class="fa fa-eye" aria-hidden="true" style="font-size: small;"></i> 345 views</p>
+             <p class="  d-inline mx-1"><i class="fa fa-check-square" aria-hidden="true"></i> free to use</p>
+
+           </div>
+         </div>
+     </div>
+     <!-- views  end-->
+     <!-- share & stuff  -->
+     <section class="row">
+       <div class="col-5 justify-content-start d-flex">
+         <p class="publish mx-3"><i class="fa fa-calendar-o" aria-hidden="true"></i> Published on June 15, 2021</p>
+       </div>
+       <div class="col-3"></div>
+       <div class="col-4 " id="endbutton">
+        <button type="button" class="btn p-2 mx-1 my-auto"><i class="fa fa-share" aria-hidden="true"></i> share</button>
+        <button type="button" class="btn p-2 mx-1 my-auto"><i class="fa fa-info-circle" aria-hidden="true"></i> info</button>
+       </div>
+     </section>
+     <!-- share & stuff end -->
+   </div>
+ </div>
+</div>
+
+
+
+
+
+
+
+
+ 
+
+     
+
+
+
+
+
+
+
+  <!-- Control buttons -->
+<div id="mybutton" class=" my-3">
+  <button class="" > Show all</button>
+  <button class="btn" "> Cars</button>
+  <button class="btn" onclick="filterSelection('animals')"> Animals</button>
+  <button class="btn" onclick="filterSelection('fruits')"> Fruits</button>
+  <button class="btn" onclick="filterSelection('colors')"> Colors</button>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <div class="filters col-lg-3 col-md-4 col-sm-12 my-2 px-2 px-lg-0">
+    <div class="filterDiv boy">
+      <img src="static/images/istockphoto-1220904385-612x612.jpg" alt="" class="img-fluid" >
+      <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+width="24" height="24"
+viewBox="0 0 172 172"
+style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#ffffff"><path d="M78.83333,14.33333c-3.956,0 -7.16667,3.21067 -7.16667,7.16667v57.33333h-25.08333c-1.97902,0 -3.58333,1.60431 -3.58333,3.58333c0.00014,0.95031 0.37777,1.86164 1.0498,2.53353c0.07162,0.07315 0.14634,0.1432 0.22396,0.20995l36.58919,34.50359l0.23795,0.22396c1.32656,1.24737 3.07819,1.94302 4.89909,1.94564c1.8209,-0.00261 3.57253,-0.69826 4.89909,-1.94564l0.09798,-0.08399c0.02354,-0.02782 0.04687,-0.05581 0.06998,-0.08399l36.5752,-34.48958c0.07258,-0.06249 0.14262,-0.12786 0.20996,-0.19597l0.05599,-0.04199c0.01411,-0.01388 0.02811,-0.02788 0.042,-0.04199c0.67204,-0.6719 1.04966,-1.58323 1.0498,-2.53353c0,-1.97902 -1.60431,-3.58333 -3.58333,-3.58333h-25.08333v-57.33333c0,-3.956 -3.21067,-7.16667 -7.16667,-7.16667h-7.16667zM21.5,143.33333c-2.58456,-0.03655 -4.98858,1.32136 -6.29153,3.55376c-1.30295,2.2324 -1.30295,4.99342 0,7.22582c1.30295,2.2324 3.70697,3.59031 6.29153,3.55376h129c2.58456,0.03655 4.98858,-1.32136 6.29153,-3.55376c1.30295,-2.2324 1.30295,-4.99342 0,-7.22582c-1.30295,-2.2324 -3.70697,-3.59031 -6.29153,-3.55376z"></path></g></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+width="24" height="24"
+viewBox="0 0 172 172"
+style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#ffffff"><path d="M118.25,21.5c-20.7475,0 -32.25,14.97833 -32.25,14.97833c0,0 -11.5025,-14.97833 -32.25,-14.97833c-21.77233,0 -39.41667,17.64433 -39.41667,39.41667c0,29.89217 35.20267,58.85983 45.01383,68.01167c11.30183,10.535 26.65283,24.08 26.65283,24.08c0,0 15.351,-13.545 26.65283,-24.08c9.81117,-9.15183 45.01383,-38.1195 45.01383,-68.01167c0,-21.77233 -17.64433,-39.41667 -39.41667,-39.41667zM106.1455,115.455c-1.2685,1.14667 -2.37217,2.14283 -3.268,2.98133c-5.38217,5.01667 -11.74617,10.7715 -16.8775,15.3725c-5.13133,-4.601 -11.5025,-10.363 -16.8775,-15.3725c-0.903,-0.8385 -2.00667,-1.84183 -3.268,-2.98133c-10.17667,-9.19483 -37.18783,-33.61883 -37.18783,-54.53833c0,-13.83167 11.25167,-25.08333 25.08333,-25.08333c13.0935,0 20.683,9.1375 20.88367,9.374l11.36633,12.126l11.36633,-12.126c0.07167,-0.09317 7.79017,-9.374 20.88367,-9.374c13.83167,0 25.08333,11.25167 25.08333,25.08333c0,20.9195 -27.01117,45.3435 -37.18783,54.53833z"></path></g></g></svg>
+    </div>
+  </div>
+  <div class="filters col-lg-3 col-md-4 col-sm-12 my-2 px-2 px-lg-0">
+    <div class="filterDiv colors smile">
+      <img src="static/images/smile.jpg" alt="" class="img-fluid">
+      
+    </div>
+  </div>
+  <div class="filters col-lg-3 col-md-4 col-sm-12 my-2 px-2 px-lg-0">
+    <div class="filterDiv child">
+      <img src="static/images/istockphoto-1254067005-612x612.jpg" alt="" class="img-fluid">
+    </div>
+  </div>
+  
+  <div class="filters col-lg-3 col-md-4 col-sm-12 my-2 px-2 px-lg-0">
+    
+    <div class="filterDiv cars animals">
+      <img src="static/images/smile.jpg" alt="" class="img-fluid">
+    </div>
+  </div>
+  <div class="filters col-lg-3 col-md-4 col-sm-12 my-2 px-2 px-lg-0">
+    <div class="filterDiv animals">
+      <img src="static/images/pexels-asa-dugger-1666073.jpg" class="image-fluid col-12" alt="">
+    </div>
+  </div>
+  <div class="filters col-lg-3 col-md-4 col-sm-12 my-2 px-2 px-lg-0">
+    <div class="filterDiv animals">
+      <img src="static/images/pexels-akhila-mistura-7048601.jpg" alt="" class="image-fluid col-12" >
+    </div>
+  </div>
+  <div class="filters col-lg-3 col-md-4 col-sm-12 my-2 px-2 px-lg-0">
+    <div class="filterDiv colors">
+      <img src="static/images/sam-burriss-tV_1sC603zA-unsplash.jpg"  class="image-fluid col-12" alt="">
+    </div>
+  </div>
+  <div class="filters col-lg-3 col-md-4 col-sm-12 my-2 px-2 px-lg-0">
+    <div class="filterDiv colors">
+      <img src="static/images/pexels-dziana-hasanbekava-7275394.jpg"  class="image-fluid col-12" alt="">
+    </div>
+  </div>
+  
+  <div class="filters col-lg-3 col-md-4 col-sm-12 my-2 px-2 px-lg-0">
+    <div class="filterDiv colors">
+      <img src="static/images/fam.jpg"  class="image-fluid col-12" alt="">
+    </div>
+  </div>
+
+  <div class="filters col-lg-3 col-md-4 col-sm-12 my-2 px-2 px-lg-0">
+    <div class="filterDiv colors">
+      <img src="static/images/pexels-dziana-hasanbekava-7275394.jpg"  class="image-fluid col-12" alt="">
+    </div>
+  </div>
+  <div class="filters col-lg-3 col-md-4 col-sm-12 my-2 px-2 px-lg-0">
+    <div class="filterDiv colors">
+      <img src="static/images/pexels-dziana-hasanbekava-7275394.jpg"  class="image-fluid col-12" alt="">
+    </div>
+  </div>
+  <div class="filters col-lg-3 col-md-4 col-sm-12 my-2 px-2 px-lg-0">
+    <div class="filterDiv colors">
+      <img src="static/images/pexels-dziana-hasanbekava-7275394.jpg"  class="image-fluid col-12" alt="">
+    </div>
+  </div>
+
+
+        
+
+
+
+
+
+
+
+
+
+  
+
+ 
+  
+  <div class="filterDiv fruits">Melon</div>
+  <div class="filterDiv fruits animals">Kiwi</div>
+  <div class="filterDiv fruits">Banana</div>
+  <div class="filterDiv fruits">Lemon</div>
+  <div class="filterDiv animals">Cow</div>
